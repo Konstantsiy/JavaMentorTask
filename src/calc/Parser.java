@@ -64,7 +64,7 @@ public class Parser {
     }
 
     public void convertAndPrint(int number) {
-        if(number > 10 && number < 40) {
+        if(number >= 10 && number < 40) {
             for(int i = 0; i < (number / 10); i++) {
                 System.out.print("X");
             }
